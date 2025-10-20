@@ -6,7 +6,13 @@ date: 2025-10-03
 layout: base
 ---
 
-## mix
+## Tools
+
+## hex
+
+is the package manager. similar to pip.
+
+### mix
 
 tooling to build, run, test, and release Erlang applications. kinda like cargo for rust.
 
@@ -18,6 +24,9 @@ mix new my_app # creates a new mix project
 
 the interactive elixir shell. kinda like repl for rust.
 
+
+
+## Concepts/variables
 
 ## Immutability
 
@@ -142,3 +151,6 @@ There can only be one struct per module. and a struct cannot be associated outsi
 
  
 you can't compare a map and a struct though.
+
+
+## Sockets
