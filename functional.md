@@ -4,6 +4,7 @@ title: Functional programming.
 description: Looking at the state of the art web framework for elixir
 date: 2025-10-25
 layout: base
+tags: ["tech", "programming"]
 ---
 
 functional programming (FP) has always seemed like a curiosity – a realm of mathematical purity with little bearing on the practical realities of building robust, scalable software. However, as the complexity of software grows and the demand for concurrent and parallel processing. This post aims to demystify functional programming for the experienced object-oriented programmer and offer a technical bridge from the familiar landscapes of Rust, Python, and C++.

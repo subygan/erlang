@@ -4,6 +4,7 @@ title: Elixir
 description: Learning elixir as a non-functional noob
 date: 2025-10-03
 layout: base
+tags: ["tech", "programming"]
 ---
 
 ## Tools
