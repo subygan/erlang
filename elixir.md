@@ -1,13 +1,13 @@
 ---
 emoji: 🩸
-title: Elixir
+title: elixir
 description: Learning elixir as a non-functional noob
 date: 2025-10-03
 layout: base
 tags: ["tech", "programming"]
 ---
 
-## Tools
+## tools
 
 ## hex
 
@@ -27,9 +27,9 @@ the interactive elixir shell. kinda like repl for rust.
 
 
 
-## Concepts/variables
+## concepts/variables
 
-## Immutability
+## immutability
 
 This is the most interesting part to me. That all data is immutable. which means you don't mutate and return a variable you always create a new variable and return.
 
@@ -37,13 +37,13 @@ to me it looks like this is going to be massively inefficient because then I'm j
 
 Then the garbage collector removes all the unnecessary cruft.
 
-## Atoms
+## atoms
 
 Atoms are variables whose value is their own name, they're initialized with a semicolon in the from `:atom` has the value and variable atom
 
 Atoms are not garbage collected 
 
-## Transformations
+## transformations
 
 since all data is immutable everything can follow the unix principle of piping content we can do this
 
@@ -71,7 +71,7 @@ end
 format_response(route(parse(request)))
 ```
 
-## Pattern matching
+## pattern matching
 
 This is a core part of how elixir works. My biggest gripe with rust is that, it doesn't allow function overloading, and now I have function names like `parse_request_with_method(request: Request, method: Method)` when it could've been overloaded and simply be, `parse(request: Request, method: Method)`
 
@@ -137,7 +137,7 @@ end
 
 here `@name` is a module attribute way to set constants within the function and the most
 
-## Structs
+## structs
 
 ```
 defmodule Servy.Conv do
@@ -154,4 +154,4 @@ There can only be one struct per module. and a struct cannot be associated outsi
 you can't compare a map and a struct though.
 
 
-## Sockets
+## sockets
